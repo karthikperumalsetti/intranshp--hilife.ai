@@ -1,0 +1,54 @@
+
+body{
+    background-image:url(./img/login.jpg);
+    padding:auto;
+}
+
+
+.col-6{
+    justify-content: center;
+    border-radius:10px;
+    background-image:url(./img/2.jpg);
+    background:cover;
+    color:rgb(244, 244, 248);
+}
+input[type=password]{
+    background-color: greenyellow;
+    outline: greenyellow;
+    border-radius: 5px;
+}
+input[type=email]{
+    background-color: greenyellow;
+    outline: greenyellow;
+    color: black;
+    border-radius: 5px;
+}
+button{
+    background-color:rgb(221, 26, 19);
+    outline:black;
+    border-radius:12px;
+    
+    
+}
+button:hover{
+        background-color: rgb(125, 233, 98);
+        border-radius: 12px;
+        font-size: 18px;
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+
+}
+h1:hover{
+        font-size:35px;
+}
+@media screen and (min-width:350px) and (max-width:850px){
+    .container{
+        
+        font-size: 10px;
+        
+    }
+    
+}

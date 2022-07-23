@@ -1,0 +1,25 @@
+
+h1{
+    font-size: 50px;
+    font-style:unset;  
+    opacity: 0.5;
+    border-style:groove;    
+    border-color:  blue;
+    }
+img{
+    filter: blur(3px);
+}
+.bullet{
+    display:inline;
+    color:block;
+    font-size:29px;
+}
+.fixed-item{
+    display:flex;
+    border-style: dotted;
+    padding:20px;
+}
+div{
+    background-image: url('./1.jpg '),url('./2.jpg');
+    background-attachment: no-repeat;
+}

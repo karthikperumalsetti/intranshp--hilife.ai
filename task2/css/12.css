@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(32, 230, 48);
+    }
+    .karthik{
+            background-color: aliceblue;
+    }
+    h2:hover{
+        font-color:blue;
+        font-size:20px;
+}
+#demo{
+    font-size: 20px;
+    font-style: inherit;
+    border-style: double;
+    border-color: black;
+
+}
+*{
+    background-color: blue;
+}
+
+div{
+    border-style:dotted;
+    border-color: yellowgreen;
+    border-image:url()
+}
+/*h1{
+    background-image:url(./download.jpg);
+}
+div{
+    background-image:url(./download.jpg);
+}*/
+

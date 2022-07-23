@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            p{
+                column-count: 5;
+                column-gap: 60px;
+                text-align: justify;
+                column-rule-style: groove;
+                column-rule-color: red;
+
+            }
+            @media screen and (min-width:375px) and (max-width:880px){
+                p{
+                    column-count: 3;
+                    column-gap: 20px;
+                     color: blue;
+                }
+                
+            }
+
+            .content{
+                width: 150px;
+                height: 200px;
+                font-size: 35px;
+                background-color: blue;
+                color: white;
+                transition: width 4s;
+
+            }
+            .content:hover{
+                width: 200px;
+                height: 250px;
+                background-color: yellow;
+            }
+                .item{
+                display: flex;
+                background-color: blue;
+                color: white;
+                padding: 30px;
+                height: 200px;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+            .itemlist{
+                background-color: red;
+                padding: 25px;
+                border: 5px solid black;
+                height: 10px;
+
+            }
+h2{
+                width: 150px;
+                height: 100px;
+                background-color: yellow;
+                font-size: 25px;
+                color:white;
+                animation-name: demo;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes demo{
+                from{
+                    background-color: aqua;
+                    font-size: 30px;
+                }
+                to{
+                    background-color:blue;
+                    font-size: 35px;
+                }
+            }
+
+            .comp{
+                height: 150px;
+                width: 250px;
+                background-color:green;
+                transform: rotate(90deg);
+            }
+
+    </style>
+
+</head>
+<body>
+<h1 class="content">hilife</h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi minima mollitia temporibus debitis et dicta laudantium libero, autem velit, beatae possimus obcaecati facere eum harum minus architecto alias animi vitae.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quidem culpa quod? Illo eaque assumenda laboriosam exercitationem tempora nobis dolorem ad, temporibus eos. Sint adipisci vero inventore hic maiores doloribus.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum inventore, doloremque impedit delectus, illo quo sunt repellendus officia numquam obcaecati voluptate distinctio esse blanditiis accusantium provident ipsum deleniti quam saepe!
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non vero est natus aut laborum nostrum deserunt tenetur necessitatibus blanditiis eius illum, debitis, magnam dolor voluptatum modi sint excepturi, nobis alias!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus fuga quibusdam ad laboriosam cumque adipisci dolore dignissimos nulla quidem eligendi ex, blanditiis, ea dolorum harum? Velit, provident? Veniam, sapiente voluptas!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minima eveniet aliquam, consectetur necessitatibus quia distinctio obcaecati modi consequuntur labore quas. Dicta eos ratione molestiae ea similique unde! Omnis, repellat.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime voluptatem distinctio doloribus alias tempore veniam sed unde dolores eum exercitationem adipisci asperiores mollitia reprehenderit, similique nemo voluptatibus veritatis. Eum, dolor?
+
+</p>
+<div class="item">
+    <div class="itemlist">1</div>
+    <div class="itemlist">2</div>
+    <div class="itemlist">3</div>
+    <div class="itemlist">4</div>
+    <div class="itemlist">5</div>
+    <div class="itemlist">6</div>
+    <div class="itemlist">7</div>
+    <div class="itemlist">8</div>
+    <div class="itemlist">9</div>
+</div>
+<h2>Trichy</h2>
+<h1 class="comp">karthik</h1>
+</body>
+</html>
