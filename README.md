@@ -1,1 +1,1 @@
-# intranshp--hilife.ai
+# intranship--hilife.ai
